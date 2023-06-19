@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(15, 23, 32);
+    color: aliceblue;
+    margin: 0%;
+}
+#texlogo .logu img{/* lembra de como a estrutura da cascata funciona como os conjuntos númericos, podem ser assim:um conjunto contém subconjuntos e assim vai */
+float: left; /* fazer o elemento se deslocar para a esquerda */
+background-color: rgb(10, 13, 22);
+}
+#menuu .meu a img {/* a tag <a> e o elemento <img> não esquecer que tem que colocar eles...*/
+  float: right;
+  border-radius: 5px;/*adicinar angulo na bordas*/
+  
+ background-color: rgb(15, 23, 32);
+  }
+  #menuu .meu a img:hover {
+   background-color: rgb(56, 108, 160);
+   border-radius: 5px;
+  }
+#texlogo .logu img{
+  border-radius: 15px;
+  }
+
+nav{
+background-color: rgb(10, 13, 22);
+text-align: center;
+margin: 0px;
+
+}
+li{
+    padding: 25px;
+}
+
+nav li a {/* quando colocado assim sem elemtos dividindo a pagina, mantém a relação dos conjuntos */
+    text-decoration: none;
+    color: aliceblue;
+    line-break: normal;/* quebra de linha */
+    padding: 10px;/*faz a imagem entra mais a dentro da página */
+    border-radius: 10px;
+    text-align: center;/* alinhar o texto*/
+}
+nav ul li:hover {
+    background-color: rgb(89, 115, 141);
+    border-radius: 5px;
+    
+}
+
+nav li{
+    display: inline-block;/*modificar os elementos para que eles fiquem alinhasdos em blocos horizontais */
+    width: 10em;
+
+   
+}
+nav ul{
+    display: inline-block;
+   
+}
+#divBusca{
+    background-color:#181d27;
+    border:solid 1px;
+    border-radius:15px;
+    width:300px;
+    float:right;
+
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px; /*tamanho da fonte de texto*/
+    border:none;
+    height:30px;
+    width:260px;
+    color: aliceblue;
+  }
+
+  #btnBusca{
+    height: 30px;
+    width: 30px;
+  }
+#filmes .imagens figure{
+  display: inline-block;
+}
+/*lembrar a ideia de conjuntos, o conjunto de maior proporção afetara os subconjuntos, mas as caracteristicas dos subconjuntos seram mantidas.*/
