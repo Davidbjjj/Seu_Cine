@@ -2,6 +2,7 @@ body{
     background-color: rgb(15, 23, 32);
     color: aliceblue;
     margin: 0%;
+    padding: 0%
 }
 #texlogo .logu img{/* lembra de como a estrutura da cascata funciona como os conjuntos númericos, podem ser assim:um conjunto contém subconjuntos e assim vai */
 float: left; /* fazer o elemento se deslocar para a esquerda */
@@ -82,5 +83,11 @@ nav ul{
   }
 #filmes .imagens figure{
   display: inline-block;
+}
+
+#carouselExample #uiui img{
+  width: 100px;
+  height: 800px;
+  padding: 50px;
 }
 /*lembrar a ideia de conjuntos, o conjunto de maior proporção afetara os subconjuntos, mas as caracteristicas dos subconjuntos seram mantidas.*/
