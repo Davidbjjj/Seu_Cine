@@ -1,4 +1,31 @@
 body{
-    background-color: rgb(15, 23, 32);
-    color: aliceblue;
+    background-color:rgb(15, 23, 32);
+}
+main{
+    background-color: rgb(56, 108, 160);
+    padding: 5%;
+    float: left;
+    transform: translate(5%,30%);
+    border-radius: 15px;
+    width: 800PX;
+}
+
+aside img{
+   transform: translate(25%,30%);
+   width: 500PX;
+   height: 500px;
+
+}
+nav#texlogo{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+nav#texlogo img{
+    float: left;
+}
+button#salvar{
+    background-color: rgb(30, 122, 92);
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+
 }

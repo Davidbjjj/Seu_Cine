@@ -2,7 +2,8 @@ body{
     background-color: rgb(15, 23, 32);
     color: aliceblue;
     margin: 0%;
-    padding: 0%
+    padding: 0%;
+    overflow-x:hidden;
 }
 #texlogo .logu img{/* lembra de como a estrutura da cascata funciona como os conjuntos númericos, podem ser assim:um conjunto contém subconjuntos e assim vai */
 float: left; /* fazer o elemento se deslocar para a esquerda */
@@ -22,17 +23,18 @@ background-color: rgb(10, 13, 22);
   border-radius: 15px;
   }
 
-nav{
+nav#homii{
 background-color: rgb(10, 13, 22);
 text-align: center;
 margin: 0px;
+transform: translateY(50%);
 
 }
 li{
     padding: 25px;
 }
 
-nav li a {/* quando colocado assim sem elemtos dividindo a pagina, mantém a relação dos conjuntos */
+nav#homii li a {/* quando colocado assim sem elemtos dividindo a pagina, mantém a relação dos conjuntos */
     text-decoration: none;
     color: aliceblue;
     line-break: normal;/* quebra de linha */
@@ -40,19 +42,19 @@ nav li a {/* quando colocado assim sem elemtos dividindo a pagina, mantém a rel
     border-radius: 10px;
     text-align: center;/* alinhar o texto*/
 }
-nav ul li:hover {
+nav#homii ul li:hover {
     background-color: rgb(89, 115, 141);
     border-radius: 5px;
     
 }
 
-nav li{
+nav#homii li{
     display: inline-block;/*modificar os elementos para que eles fiquem alinhasdos em blocos horizontais */
     width: 10em;
 
    
 }
-nav ul{
+nav#homii ul{
     display: inline-block;
    
 }
@@ -91,3 +93,25 @@ nav ul{
   padding: 50px;
 }
 /*lembrar a ideia de conjuntos, o conjunto de maior proporção afetara os subconjuntos, mas as caracteristicas dos subconjuntos seram mantidas.*/
+nav#menuu img{
+ position: absolute;
+  float: right;
+  right: 2px;
+  transform: translatey(40px);
+}
+
+.texti{
+  text-align: center;
+}
+.nav-list a, li{
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+  display: inline-block;
+}
+#imgperson{
+  float:right;
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  transform: translate();
+}
