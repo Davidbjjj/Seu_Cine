@@ -1,9 +1,12 @@
+html,
 body{
     background-color: rgb(15, 23, 32);
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     margin: 0%;
     padding: 0%;
     overflow-x:hidden;
+    position: relative;
+    height: 100%;
 }
 #texlogo .logu img{/* lembra de como a estrutura da cascata funciona como os conjuntos númericos, podem ser assim:um conjunto contém subconjuntos e assim vai */
 float: left; /* fazer o elemento se deslocar para a esquerda */
@@ -114,4 +117,63 @@ nav#menuu img{
   width: 50px;
   border-radius: 10px;
   transform: translate();
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display:-webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack:center;
+  -ms-flex-pack: center;
+  -webkit-justify-content:center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+
+
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 250ms all;
+}
+:root{
+  --swiper-theme-color:#fff;
+}
+
+.seucine{
+  max-width:100%;
+  height: 200px auto;
+}
+.seucine{
+  padding: 15px;
+}
+h1{
+  text-align: center;
+}
+.swiper-slide img:hover{
+  transform: scale(1.2);
+  z-index: 1;
+}
+.swiper-slide:first-child:hover{
+  margin: 0 40px;
+  transition: 250ms all;
+
+}
+.swiper-wrapper{
+padding: 20px 0;
 }
