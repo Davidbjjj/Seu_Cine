@@ -177,3 +177,10 @@ h1{
 .swiper-wrapper{
 padding: 20px 0;
 }
+aside#menu img{
+  z-index: 5;}
+
+  button{
+    margin: 2px;
+    padding: auto;
+  }
